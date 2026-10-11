@@ -27,5 +27,5 @@ C2000(I2C-A, Master)이 10ms 주기로 STM32(I2C1, Slave)에서 2바이트를 �
 | GPIO105 (SCL) | PB6 (SCL) |
 | GND | GND |
 
-- SDA/SCL에 외부 Pull-up 4.7kΩ (to 3.3V) 권장 (400kHz에서 내부 Pull-up은 약함)
+- SDA/SCL에 외부 Pull-up 1kΩ (@ 3.3V)  
 - 두 보드 GND 공통 연결 필수
